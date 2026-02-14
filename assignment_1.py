@@ -1,10 +1,10 @@
 # Write a Python program to print the following string in a specific format (see the output).
-print("twinkle twinkle little star")
-print("     how i wonder what you are!")
-print("        Up above the world so high")
-print("        Like a diamond in the sky")
-print("twinkle twinkle little star")
-print("     how i wonder what you are!")
+print('''twinkle twinkle little star
+     how i wonder what you are!
+        Up above the world so high
+        Like a diamond in the sky
+twinkle twinkle little star
+     how i wonder what you are!''')
 
 # Write a Python program to get the Python version you are using
 
@@ -60,7 +60,7 @@ else:
         print("C")
     else:
         print("fail")
-
+        
 # Write a program which takes input from user and identify that the given number is even or odd.
 
 value=int(input("enter your value:"))
